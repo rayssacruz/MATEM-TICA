@@ -1,2 +1,75 @@
 @import url(../css/global.css);
 @import url(../css/header.css);
+
+body {
+    min-height: 100svh;
+    width: auto;
+}
+
+main {
+    background-image: url(../imagens/Renda\ Fixa\ vs\ Renda\ Variável\ \(1\).png);
+    background-color: #bde7ff;
+    background-size: cover;
+    background-position: 0px -200px;
+    background-repeat: no-repeat;
+    height: calc(100vh - 96px);
+}
+
+
+.rendav {
+    margin-inline: 5rem;
+}
+
+section h1 {
+    margin-inline-start: 3rem;
+    padding-top: 5rem;
+    font-weight: 700;
+    font-size: 3rem;
+    font-family: 'Montserrat';
+    color: #022e62;
+}
+
+section p {
+    text-indent: 30px;
+    margin-inline-start: 3rem;
+    margin-top: 1rem;
+    font-family: 'Roboto';
+    color: #022e62;
+    font-size: 1.2rem;
+    line-height: 1.6;
+    width: 80rem;
+}
+
+section h2 {
+    margin-inline-start: 3rem;
+    padding-top: 4rem;
+    font-weight: 700;
+    font-size: 1.5rem;
+    font-family: 'Montserrat';
+    color: #022e62;
+}
+
+.tipos h2 {
+    margin-inline-start: 8rem;
+    margin-top: -2rem;
+}
+
+.os{
+    margin-inline-start: 6.1rem;
+}
+
+ul {
+    margin-inline-start: 5rem;
+    list-style-type: disc; /* Marcadores de lista (bolinhas) */
+    padding-left: 40px; /* Espaçamento à esquerda da lista */
+    column-count: 2; /* Divide em 2 colunas */
+    column-gap: 20px; /* Espaçamento entre colunas */
+}
+
+li {
+    margin-inline-start: 5rem;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    color:#022e62;
+}
+

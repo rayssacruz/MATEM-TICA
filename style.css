@@ -22,20 +22,22 @@ section {
     margin: 0;
 }
 
-main h1 {
-    padding-inline-start: 3rem;
+section h1 {
+    margin-inline-start: 3rem;
     font-weight: 700;
     font-size: 3rem;
-    font-family: '';
+    font-family: 'Montserrat';
     color: #022e62;
+
 }
 
-main p {
-    padding-top: 12.5rem;
-    padding-inline-start: 3rem;
-    font-size: 1rem;
-    font-family: '';
+section p {
+    margin-top: 1rem;
+    margin-inline-start: 3rem;
+    font-family: 'Roboto';
     color: #022e62;
+    font-size: 1.2rem;
+    line-height: 1.6;
 }
 
 .calculadorag {

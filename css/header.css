@@ -1,0 +1,36 @@
+header {
+    background-color: #022e62;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 5rem;
+    height: 6rem;
+}
+
+nav {
+    display: flex;
+    gap: 4.375rem;
+}
+
+header a {
+    color: #bde7ff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+header ul {
+    display: flex;
+    gap: 7rem;
+}
+
+header ul,
+header li {
+    list-style: none;
+}
+
+.calculadora img {
+    width: 35rem;
+    height: auto;
+    margin-left: -16rem; /* Verifique se esse é o comportamento desejado */
+}

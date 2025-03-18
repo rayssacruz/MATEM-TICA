@@ -1,0 +1,49 @@
+@import url(./css/header.css);
+@import url(./css/global.css);
+
+body {
+    min-height: 100svh;
+    width: auto;
+}
+
+main {
+    background-image: url(./imagens/Renda\ Fixa\ vs\ Renda\ Variável\ \(1\).png);
+    background-color: #bde7ff;
+    background-size: cover;
+    background-position: 0px -200px;
+    background-repeat: no-repeat;
+    height: calc(100vh - 96px);
+}
+
+section {
+    display: flex;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+
+main h1 {
+    padding-inline-start: 3rem;
+    font-weight: 700;
+    font-size: 3rem;
+    font-family: '';
+    color: #022e62;
+}
+
+main p {
+    padding-top: 12.5rem;
+    padding-inline-start: 3rem;
+    font-size: 1rem;
+    font-family: '';
+    color: #022e62;
+}
+
+.calculadorag {
+    display: flex; /* Adicionado */
+    align-items: center;
+}
+
+.calculadorag img {
+    width: 35rem;
+    height: auto;
+}

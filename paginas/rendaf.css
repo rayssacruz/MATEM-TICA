@@ -2,7 +2,7 @@
 @import url(../css/header.css);
 
 body {
-    min-height: 100svh;
+    min-width: 920px;
     width: auto;
 }
 
@@ -64,11 +64,6 @@ span {
     text-decoration: underline;
 }
 
-button a {
-    border: 2rem solid;
-    background-image: url(../imagens/tpu.png);
-}
-
 .titulos {
     display: flex;
     align-items: center;
@@ -93,13 +88,15 @@ button a {
 
 .publicos {
     border: 20px solid transparent; /* Espessura da borda */
-    border-image: url('../imagens/tpu.png') 30 stretch; /* Imagem da borda */
+    background-image: url(../imagens/tpu.png); /* Imagem da borda */
     background-color: #022e62; /* Cor de fundo do conteúdo */
+    opacity: 20%;
 }
 
 .privados {
     border: 20px solid transparent; /* Espessura da borda */
     border-image: url('../imagens/tpu.png') 30 round; /* Imagem da borda */
-    background-color: lightgray; /* Cor de fundo do conteúdo */
+    background-color: #022e62; /* Cor de fundo do conteúdo */
+    opacity: 20%;
 }
 

@@ -1,0 +1,69 @@
+@import url(../css/global.css);
+@import url(../css/header.css);
+
+body {
+    min-width: 920px;
+    width: auto;
+}
+
+main {
+    background-image: url(../imagens/renda2.png);
+    background-color: #bde7ff;
+    background-size: cover;
+    background-position: 0px -200px;
+    background-repeat: repeat;
+    padding-inline: 10rem;
+    padding-top: 3rem;
+}
+
+section h1 {
+    font-weight: 700;
+    font-size: 3rem;
+    font-family: 'Montserrat';
+    color: #022e62;
+    margin-bottom: 2rem;
+}
+
+section p {
+    text-indent: 2rem;
+    font-family: 'Roboto';
+    color: #022e62;
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+}
+
+section ul {
+    list-style-type: disc;
+    /* Marcadores de lista (bolinhas) */
+    padding-left: 40px;
+    /* Espaçamento à esquerda da lista */
+    margin-top: -1rem;
+    margin-inline-start: 1rem;
+
+}
+
+section li {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    color: #022e62;
+}
+
+li span {
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+span {
+    text-decoration: underline;
+}
+
+.antes {
+    padding-bottom: 2rem;
+    margin-bottom: -1rem;
+}
+
+.ost {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}

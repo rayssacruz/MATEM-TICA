@@ -2,12 +2,12 @@
 @import url(../css/header.css);
 
 body {
-    min-height: 100svh;
+    min-width: 920px;
     width: auto;
 }
 
 main {
-    background-image: url(../imagens/renda2.png);
+    background-image: url(../imagens/Como\ Investir.png);
     background-color: #bde7ff;
     background-size: cover;
     background-position: 0px -200px;
@@ -16,12 +16,17 @@ main {
     padding-top: 3rem;
 }
 
+section img {
+    width: 15rem;
+    height: auto;
+}
+
 section h1 {
-        font-weight: 700;
-        font-size: 3rem;
-        font-family: 'Montserrat';
-        color: #022e62;
-        margin-bottom: 2rem;
+    font-weight: 700;
+    font-size: 3rem;
+    font-family: 'Montserrat';
+    color: #022e62;
+    margin-bottom: 2rem;
 }
 
 section p {
@@ -35,18 +40,70 @@ section p {
 
 section h2 {
     margin-top: 2rem;
+    margin-bottom: 2rem;
     font-weight: 700;
-    font-size: 1rem;
+    font-size: 0.75rem;
     font-family: 'Montserrat';
     color: #022e62;
 }
 
-img {
-    width: 20rem;
-    height: auto;
-}
-
 .imagens {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    padding: 0;
+    margin: 0;
+}
+
+.defina {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.conheca {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.escolha {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.invista {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.acompanhe {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+button {
+    background-color: #022e62;
+    border: none;
+    color: #bde7ff;
+    padding: 15px 30px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+button a {
+    background-color: #022e62;
+    border-radius: 5px;
+    color: #bde7ff;
+    text-decoration: none;
+    font-family: 'Montserrat';
+    font-size: 1rem;
+    font-weight: bold;
 }

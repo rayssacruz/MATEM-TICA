@@ -1,51 +1,53 @@
-@import url(./css/header.css);
 @import url(./css/global.css);
+@import url(./css/header.css);
 
 body {
-    min-height: 100svh;
-    width: auto;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 main {
-    background-image: url(./imagens/Renda\ Fixa\ vs\ Renda\ Variável\ \(1\).png);
+    background-image: url(./imagens/Renda\ Fixa\ vs\ Renda\ Variável\.png);
     background-color: #bde7ff;
     background-size: cover;
-    background-position: 0px -200px;
+    background-position: center; /* Alterado para centralizar */
     background-repeat: no-repeat;
-    height: calc(100vh - 96px);
+    flex: 1; /* Ocupa o espaço restante */
+    display: flex;
+    align-items: center;
 }
 
 section {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0;
-    margin: 0;
+    width: 100%;
+    padding: 2rem;
+}
+
+.inicio {
+    max-width: 70%;
+    padding-inline: 3.5rem;
 }
 
 section h1 {
-    margin-inline-start: 3rem;
     font-weight: 700;
     font-size: 3rem;
     font-family: 'Montserrat';
     color: #022e62;
+    margin-bottom: 1rem;
 }
 
 section p {
-    margin-top: 1rem;
-    margin-inline-start: 3rem;
     font-family: 'Roboto';
     color: #022e62;
     font-size: 1.2rem;
-    line-height: 1.6;
-}
-
-.calculadorag {
-    display: flex; /* Adicionado */
-    align-items: center;
 }
 
 .calculadorag img {
-    width: 35rem;
+    max-width: 100%;
     height: auto;
+    width: 30rem;
 }
+

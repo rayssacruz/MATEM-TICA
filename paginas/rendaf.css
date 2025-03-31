@@ -7,7 +7,7 @@ body {
 }
 
 main {
-    background-image: url(../imagens/Renda\ Fixa.png);
+    background-image: url(../imagens/Fundo-Renda-Fixa.png);
     background-color: #bde7ff;
     background-size: cover;
     background-position: center top;
@@ -40,7 +40,8 @@ strong {
     color: #022e62;
     font-size: 1.2rem;
     line-height: 1.6;
-    margin-top: 2rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
 }
 
 section h2 {
@@ -86,14 +87,13 @@ span {
     text-decoration: none;
 }
 
-.publicos {
+.publicos, .privados {
     border: 20px solid; /* Espessura da borda */
-    background-image: url(../imagens/publicos.png); /* Imagem da borda */
     background-color: #022e62; /* Cor de fundo do conteúdo */
     border-radius: 5px;
 }
 
-.publicos a {
+.publicos a, .privados a {
     color: #bde7ff;
     text-decoration: none;
     font-family: 'Montserrat';
@@ -101,22 +101,3 @@ span {
     font-weight: bold;
     z-index: 1; /* Garante que o texto fique acima do fundo */
 }
-
-
-
-.privados {
-    border: 20px solid transparent; /* Espessura da borda */
-    border-image: url('../imagens/tpu.png') 30 round; /* Imagem da borda */
-    background-color: #022e62; /* Cor de fundo do conteúdo */
-    border-radius: 5px;
-}
-
-.privados a {
-    color: #bde7ff;
-    text-decoration: none;
-    font-family: 'Montserrat';
-    font-size: 1.5rem;
-    font-weight: bold;
-    z-index: 1; /* Garante que o texto fique acima do fundo */
-}
-

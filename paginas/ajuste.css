@@ -7,14 +7,34 @@ body {
 }
 
 main {
-    background-image: url(../imagens/Fundo-Titulos-Privados.png);
+    background-image: url(../imagens/Fundo-Ajuste.png);
     background-color: #bde7ff;
     background-size: cover;
     background-position: 0px -200px;
     background-repeat: repeat;
     padding-inline: 10rem;
     padding-top: 3rem;
-    padding-bottom: 1rem;
+}
+
+section {
+    width: 100%;
+    padding: 2rem;
+}
+
+.es {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.invest img {
+    width: 40rem;
+    height: auto;
+    margin-right: -10rem;
+}
+
+.perfis {
+    margin-top: 1rem;
 }
 
 section h1 {
@@ -35,36 +55,17 @@ section p {
 }
 
 section ul {
+    margin-top: 0rem;
+    margin-inline-start: 5rem;
     list-style-type: disc;
     /* Marcadores de lista (bolinhas) */
-    padding-left: 40px;
-    /* Espaçamento à esquerda da lista */
-    margin-top: -1rem;
-    margin-inline-start: 1rem;
-
+    margin-bottom: 3rem;
 }
 
 section li {
     font-size: 1.2rem;
     margin-bottom: 10px;
     color: #022e62;
-}
-
-li span {
-    text-decoration: underline;
-}
-
-span {
-    text-decoration: underline;
-}
-
-.antes {
-    margin-bottom: 2rem;
-}
-
-.nor, .nes {
-    margin-top: 1.5rem;
-    margin-bottom: 1.5rem;
 }
 
 .ancora a {

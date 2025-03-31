@@ -29,8 +29,10 @@ header li {
     list-style: none;
 }
 
+
+
+
 .calculadora img {
-    width: 35rem;
+    width: 9rem;
     height: auto;
-    margin-left: -16rem; /* Verifique se esse é o comportamento desejado */
 }

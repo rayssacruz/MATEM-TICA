@@ -2,18 +2,20 @@
 @import url(../css/header.css);
 
 body {
-    min-width: 920px;
-    width: auto;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 main {
-    background-image: url(../imagens/renda2.png);
+    background-image: url(../imagens/Fundo-Titulos-Publicos.png);
     background-color: #bde7ff;
     background-size: cover;
     background-position: 0px -200px;
     background-repeat: repeat;
     padding-inline: 10rem;
     padding-top: 3rem;
+    padding-bottom: 1rem;
 }
 
 section h1 {
@@ -54,16 +56,33 @@ li span {
     text-decoration: underline;
 }
 
-span {
-    text-decoration: underline;
-}
-
-.antes {
-    padding-bottom: 2rem;
-    margin-bottom: -1rem;
-}
-
 .ost {
     margin-top: 1.5rem;
     margin-bottom: 1.5rem;
+}
+
+.antes {
+    margin-bottom: 2rem;
+}
+
+.ancora a {
+    margin-top: 5rem;
+    background-color: #022e62;
+    border-radius: 5px;
+    color: #bde7ff;
+    text-decoration: none;
+    font-family: 'Montserrat';
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.ancora {
+    text-align: right; /* Alinha todo o conteúdo à direita */
+    margin-top: 2rem; /* Espaço acima do link */
+}
+.ancora a {
+    display: inline-block; /* Permite alinhamento correto */
+    margin-top: 1rem; /* Ajuste fino do espaçamento */
 }

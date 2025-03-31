@@ -2,18 +2,25 @@
 @import url(../css/header.css);
 
 body {
-    min-width: 920px;
-    width: auto;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 main {
-    background-image: url(../imagens/Como\ Investir.png);
+    background-image: url(../imagens/Fundo-Como-Investir.png);
     background-color: #bde7ff;
     background-size: cover;
-    background-position: 0px -200px;
-    background-repeat: repeat;
+    background-position: center; /* Alterado para centralizar */
+    background-repeat: no-repeat;
+    flex: 1; /* Ocupa o espaço restante */
+    display: flex;
+    align-items: center;
+}
+
+section {
+    width: 100%;
     padding-inline: 10rem;
-    padding-top: 3rem;
 }
 
 section img {
@@ -39,6 +46,8 @@ section p {
 }
 
 section h2 {
+    text-align: center;
+    /* Mantenha as outras propriedades existentes */
     margin-top: 2rem;
     margin-bottom: 2rem;
     font-weight: 700;
@@ -52,35 +61,12 @@ section h2 {
     justify-content: space-between;
     align-items: center;
     gap: 1rem;
-    padding: 0;
-    margin: 0;
+
 }
 
-.defina {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.conheca {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.escolha {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.invista {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.acompanhe {
+.defina, .conheca, .escolha, .invista, .acompanhe {
+    width: 15rem;
+    height: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -95,6 +81,10 @@ button {
     font-weight: bold;
     border-radius: 5px;
     cursor: pointer;
+    padding: 10px 20px;
+    display: flex;          
+    justify-content: center; 
+    gap: 10px; 
 }
 
 
@@ -106,4 +96,7 @@ button a {
     font-family: 'Montserrat';
     font-size: 1rem;
     font-weight: bold;
+}
+.lugar{
+    padding-top: 2rem;
 }

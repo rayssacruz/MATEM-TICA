@@ -18,6 +18,10 @@ main {
     padding-bottom: 1rem;
 }
 
+section {
+    height: 90vh;
+}
+
 section h1 {
     font-weight: 700;
     font-size: 3rem;
